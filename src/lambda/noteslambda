@@ -1,0 +1,41 @@
+types of lambda expressions
+1- no parameters, no return type
+()->{} curly brace if there are multiple statement otherwise no need
+()->System.out.println("hello");
+()->{
+    System.out.println("hello");
+    System.out.println("hello");
+    };
+
+
+2- no parameter, with return value
+()->{
+     int n1=10,n2=20;
+     return (n1+n2);
+     };     
+()-> 20;  if there is single line then no need to use return keyword or it will show error
+
+
+3- one parameter with no return value
+(int n)->System.out.println(n*n);
+(n)->print(n*n);
+n->print(n*n);
+n->(n>10)?print("yes"):print("no");
+
+
+4- one parameter with return value
+(int num)->num*num;
+(num)->num*num;
+num->num*num;
+
+
+5- multiple parameter no return value
+(int a,int b)->print(a+b);
+(a,b)->print(a+b);
+
+
+6- multiple parameter with retun value
+(int a,int b)->a+b;
+
+
+
