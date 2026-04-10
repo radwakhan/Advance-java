@@ -1,0 +1,16 @@
+stream api-a sequence of element that can be proceed in a pipeline of operation such as filtering mapping
+sorting and reducing
+
+one operation output will be the input of another operation
+streams dont store data anywhere it only perform operation and then you need to store it into a list manually
+
+collection to stream -> Collection.stream()
+array to stream -> Arrays.stream()
+direct stream -> stream.of()
+
+two extra method
+stream.iterate()
+stream.generate()
+
+all stream api are divided into 2 parts 
+intermidiate operation - filter, map, distinct, sort and limit
