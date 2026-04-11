@@ -1,0 +1,13 @@
+package com.example.springbootdemo.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+//@RestController
+//public class hello {
+//    @GetMapping("/")
+//    public String hellomethod(){
+//        return  "hello class method";
+//    }
+//}
